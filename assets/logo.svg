@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="887px" height="903px" viewBox="0 0 887 903" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-58.000000, -49.000000)">
+            <g id="logo" transform="translate(58.000000, 49.000000)">
+                <polygon id="Shape" stroke="#FFFFFF" stroke-width="7" points="195.627281 899.430909 26 899.430909 3.66564062 899.430909 3.66564062 87.2394091 225.774 87.2394091 400.280828 515.708955 585.896516 79.265 815.933875 79.265 815.933875 899.430909 608.114234 899.430909 608.114234 376.618182 468.503266 715.565 328.892297 715.565 187.698281 352.653636"></polygon>
+                <path d="M85,4.09345455 L85,799.509773" id="Shape" stroke="#FFFFFF" stroke-width="7"></path>
+                <path d="M196,895.94465 L289,803.009773 L87.2956839,803.009773 L11.052844,895.94465 L196,895.94465 Z M83.9841911,796.009773 L301,796.009773 L301,803 L199,902.925267 L0.630510654,902.925267 L0.302932508,898.01158 L83.9841911,796.009773 Z" id="Path" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <path d="M227.316584,90.742853 L0.218622424,90.2371188 L1.11099286,84.3209673 L1.20289899,83.711657 L83.624823,0.0976363636 L309.925095,0.0976363636 L227.316584,90.742853 Z M294.074905,7.09763636 L86.553802,7.09763636 L11.4751574,83.2621691 L224.231416,83.7359652 L294.074905,7.09763636 Z" id="Path" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <polygon id="Shape" fill="#FFFFFF" fill-rule="nonzero" points="225.774 87.2394091 401.175594 514.125091 590 79 582 77.6398182 575.38732 82.7633886 454.131953 362.322091 312.248152 5.65682067 309.899994 0.100000024"></polygon>
+                <polygon id="Shape" stroke="#FFFFFF" stroke-width="7" points="815.933875 79.2374545 878.5595 4.09345455 673.968984 4.09345455 585 79.2374545"></polygon>
+                <polygon id="Path" stroke="#FFFFFF" stroke-width="7" points="611 899.430909 672.400024 803.099976 879.72998 803.099976 817.52002 899.430909"></polygon>
+                <polygon id="Line" fill="#FFFFFF" fill-rule="nonzero" points="293.5 630.5 293.5 803 300.5 803 300.5 642 298 634"></polygon>
+                <path d="M673.955219,4.09345455 L673.955219,804 L673.955219,4.09345455 Z" id="Path" stroke="#FFFFFF" stroke-width="7"></path>
+                <path d="M882.573266,0.599999994 L882.573266,799.743909 L882.573266,0.599999994 Z" id="Path" stroke="#FFFFFF" stroke-width="7"></path>
+            </g>
+        </g>
+    </g>
+</svg>

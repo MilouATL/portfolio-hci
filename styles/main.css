@@ -1,0 +1,290 @@
+/*
+ 	CSS RESET								
+     http://meyerweb.com/eric/tools/css/reset/ 
+        v2.0 | 20110126
+        License: none (public domain)
+*/
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,
+cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,
+strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,
+form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,
+header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+  margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section { display: block; }
+body { line-height: 1; }
+
+ol,ul { list-style: none; }
+
+blockquote,q { quotes: none; }
+
+blockquote:before,blockquote:after,q:before,q:after { content: ''; content: none; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+/* end css reset */
+* {
+    font-family: 'Lato', sans-serif;
+}
+ nav {
+	height: 50px;
+	background-color: #000;
+    display: grid;
+    grid-template-columns: 100px repeat(2, 1fr);
+	padding: 20px 0px;
+	/* overflow: hidden; */
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+}
+
+.logo {
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+    height: 50px; 
+    width: 50px;
+}
+
+.menu {
+	display: block;
+}
+
+.menu li {
+	display: inline-block;
+}
+
+article { 
+	line-height: 1.4em;
+
+}
+
+ /* ------------- */
+ .dropbtn {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+	display: block;
+	z-index: 1000;
+
+}
+
+.dropdown-content a:hover {background-color: #D9D9ED}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #98A7F8;
+}
+
+/* content */
+main > section.parallax {
+	height: 500px;
+	overflow: hidden;
+	position: relative;
+}
+
+main > section.parallax img {
+	display: block;
+	position: absolute;
+	width: 100%;
+	z-index: -1;
+	top: -100px;
+}
+
+.mountain { 
+    object-fit: cover;
+    height: 600px;
+}
+
+h1 {
+	text-align: center;
+    text-transform: uppercase;
+}
+
+main > section.parallax > header > h1 {
+	font-size: 3em;
+	color: white;
+	padding: 32px;
+	width: 800px;
+	margin: 192px auto;
+	padding: 32px;
+	border: 2px solid white;
+	border-radius: 1px;
+}
+
+main > section > q {
+    display: block;
+    font-family: 'Amatic SC';
+    text-align: center;
+    font-size: 3em;
+    padding-top: 64px;
+    width: 960px;
+    margin: 0px auto;
+}
+
+main > section > q + span {
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 64px;
+	width: 300px;
+	text-align: center;
+	font-style: italic;
+}
+
+.content-text { 
+	width: 100%; 
+	display: grid; 
+	grid-template-columns: repeat(12, 1fr); 
+	grid-template-rows: repeat(12, 1fr); 
+	color: white; 
+}
+
+.content-text p { 
+	margin: 20px 40px;
+	line-height: 1.4em;
+}
+
+h2 { 
+	font-family: 'Amatic SC';
+	padding: 10px 40px;
+	font-size: 35px;
+	font-weight: bolder;
+}
+
+.introduction { 
+    grid-column: 1 / 7;
+	grid-row: 1 / 7;
+	background: #41295a;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #2F0743, #41295a);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #2F0743, #41295a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	padding: 100px 50px;
+}
+
+.expectations { 
+    grid-column: 7/ 13;
+	grid-row: 1 / 7;
+	background-image: linear-gradient(to top, #926bd7, #8e67d3, #8a63d0, #875fcc, #835bc9);	
+	padding: 100px 50px;
+
+}
+
+.learn { 
+    grid-column: 1 / 7;
+	grid-row: 7 / 13;
+	color: black;
+	background-image: linear-gradient(to top, #dad4ec 0%, #dad4ec 1%, #f3e7e9 100%);
+	padding: 100px 50px;
+ 
+}
+
+.collage {
+	grid-column: 7 / 13;
+	grid-row: 7 / 13;
+	background-image: url('../assets/collage.jpg')
+}
+
+
+/* Exertion */
+article .content h2 {
+	padding: 20px 0px;
+}
+
+.exertion-content p {
+	padding: 0px 0px 30px 0px;
+}
+
+.exertion-content section {
+	display: grid; 
+	grid-template-columns: repeat(12, 1fr); 
+	padding: 40px 0px;
+}
+
+.exertion-content section .text {
+	grid-column: 2 / 6;
+}
+
+.exertion-content section figure {
+	grid-column: 7 / 10;
+	padding: 60px 0px;
+}
+
+/* computer vision */
+.computervision-content h2 {
+	padding: 20px 0px;
+}
+
+.computervision-content p {
+	padding: 0px 0px 30px 0px;
+}
+
+.computervision-content section {
+	display: grid; 
+	grid-template-columns: repeat(12, 1fr); 
+	padding: 40px 0px;
+}
+
+.computervision-content section .text {
+	grid-column: 2 / 6;
+}
+
+.computervision-content section figure {
+	grid-column: 7 / 10;
+	padding: 60px 0px;
+}
+
+.computervision-content section video {
+	grid-column: 7 / 10;
+	padding: 60px 0px;	
+} 
+
+/* unity and madmapper */
+
+.unity-content h2 {
+	padding: 20px 0px;
+}
+
+.unity-content p {
+	padding: 0px 0px 30px 0px;
+}
+
+.unity-content section {
+	display: grid; 
+	grid-template-columns: repeat(12, 1fr); 
+	padding: 40px 0px;
+}
+
+.unity-content section .text {
+	grid-column: 2 / 6;
+}
+
+.unity-content section video {
+	grid-column: 7 / 10;
+	padding: 60px 0px;	
+} 
