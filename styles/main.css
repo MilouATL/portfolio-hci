@@ -211,80 +211,26 @@ h2 {
 }
 
 
-/* Exertion */
-article .content h2 {
+/* Topics */
+.content h2 {
 	padding: 20px 0px;
 }
 
-.exertion-content p {
+.content p {
 	padding: 0px 0px 30px 0px;
 }
 
-.exertion-content section {
+.content section {
 	display: grid; 
 	grid-template-columns: repeat(12, 1fr); 
 	padding: 40px 0px;
 }
 
-.exertion-content section .text {
+.content section .text {
 	grid-column: 2 / 6;
 }
 
-.exertion-content section figure {
+.content section figure {
 	grid-column: 7 / 10;
 	padding: 60px 0px;
 }
-
-/* computer vision */
-.computervision-content h2 {
-	padding: 20px 0px;
-}
-
-.computervision-content p {
-	padding: 0px 0px 30px 0px;
-}
-
-.computervision-content section {
-	display: grid; 
-	grid-template-columns: repeat(12, 1fr); 
-	padding: 40px 0px;
-}
-
-.computervision-content section .text {
-	grid-column: 2 / 6;
-}
-
-.computervision-content section figure {
-	grid-column: 7 / 10;
-	padding: 60px 0px;
-}
-
-.computervision-content section video {
-	grid-column: 7 / 10;
-	padding: 60px 0px;	
-} 
-
-/* unity and madmapper */
-
-.unity-content h2 {
-	padding: 20px 0px;
-}
-
-.unity-content p {
-	padding: 0px 0px 30px 0px;
-}
-
-.unity-content section {
-	display: grid; 
-	grid-template-columns: repeat(12, 1fr); 
-	padding: 40px 0px;
-}
-
-.unity-content section .text {
-	grid-column: 2 / 6;
-}
-
-.unity-content section video {
-	grid-column: 7 / 10;
-	padding: 60px 0px;	
-} 
