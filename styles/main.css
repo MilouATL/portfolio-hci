@@ -271,3 +271,26 @@ h2 {
 	margin-left: 40px;
 	margin-bottom: 10px;
 }
+
+.text button { 
+	background-color: #98A7F8; 
+	height: 25px; 
+	width: 100px; 
+	border-radius: 3px;
+	border-color: none;
+}
+
+.text button a { 
+	color: white; 
+	text-decoration: none;
+}
+
+.progress-video { 
+	margin-top: 50px;
+	margin-left: 700px;
+}
+
+.expo-video { 
+	margin-left: 840px;
+	margin-top: -200px;
+}
