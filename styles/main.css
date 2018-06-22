@@ -234,3 +234,34 @@ h2 {
 	grid-column: 7 / 10;
 	padding: 60px 0px;
 }
+
+
+
+/* WORKSHOPS */
+.content h2 {
+	padding: 20px 0px;
+}
+	
+.content p {
+	padding: 0px 0px 30px 0px;
+}
+
+.content section {
+	display: grid; 
+	grid-template-columns: repeat(12, 1fr); 
+	padding: 40px 0px;
+}
+
+.content section .text {
+	grid-column: 2 / 6;
+}
+
+.content section figure {
+	grid-column: 7 / 10;
+	padding: 60px 0px;
+}
+
+.content section video {
+	grid-column: 7 / 10;
+	padding: 60px 0px;	
+} 
